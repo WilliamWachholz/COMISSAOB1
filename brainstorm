@@ -10,3 +10,19 @@ PERFIS DE VISUALIZACAO (GESTOR - PARTICIPANTE)
 CONFIGURAR COMO GERA O PAGAMENTO (LC, CP, PEDIDO COMPRA, NOTA ENTRADA)
 CONFIGURAR REGRA ESTORNO PAGAMENTO JA EFETUADO PARA REABRIR O VALOR
 DEVOLUCOES DEVE SER ATENTADO PARA OS FATOS DE DEVOLVER EM OUTRO MES (FILTRO DE DATA NA TELA DE APURACAO DEVE PREVERE ISSO, E O CANCELEMENTO DE DOCS)
+
+
+○ usar calculation view
+○ tratar adiantamento
+○ re - parcelamento (1 parcela nota - CR 10x cartao)
+○ reconciliacoes internas com conta caixa e mais de uma nota participando (a partir de um CR de nota original)
+○ saldos iniciais (LC)
+○ visualização recebimentos para o usuário
+○ bloqueio marcação conta caixa
+○ tabelas de histórico
+○ tela definição comissão por vendedor (com log alteração)
+○ testes unitários
+	○ primeiro mapear todas situações de pagamento em base teste
+	○ script automatizado para validar os cálculos rodando nos registros do tópico anterior
+	○ quando alguma lógica do script de cálculo alterar, rodar o script de teste
+○ criar análise do projeto conforme https://github.com/WilliamWachholz/arquivados/tree/master/Project%20Z
